@@ -1,5 +1,7 @@
 # Filtered Distortion AutoWah
 
+This is a JUCE C++ implementation of some algorithms I came up with.
+
 As a guitar player, I use(d) many different overdrive/distortion pedals. One day, thinking about distortion, genius struck!
 
 No, it didn't... I did wonder though how it would sound to distort only certain frequency range(s), instead of the entire frequency range of the electric guitar. 
