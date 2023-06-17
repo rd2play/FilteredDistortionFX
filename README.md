@@ -10,7 +10,7 @@ Technically it could be argued that it's a revolutionary idea, because I'm not a
 
 The usable frequency range of the electric guitar is between more or less 100 Hz and 8000 Hz. With this plugin, the output is clean, except for, say, a few hundred Hz above and below 800 Hz (Q factor, center frequency and gain are adjustable). I implemented three such adjustable frequency bands.
 
-Why even try this? For one, because I was genuinely curious how it would sound. Secondly, because DSP makes it easy (compared to analog).
+Why even try this? For one, because I was genuinely curious how it would sound. Secondly, because DSP makes it easy (compared to analog). Lastly, because I enjoy a lot working on and experimenting with DSP.
 
 Ok, the proof is in the pudding, how does it sound? Well, let's just say that this revolutionary idea won't take over the world. Other than that, it's a matter of taste.
 
