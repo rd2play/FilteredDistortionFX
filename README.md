@@ -22,4 +22,4 @@ The gain formulas are from the book <a href="https://www.amazon.com/Designing-Au
 
 Hat tip to https://github.com/JanWilczek
 
-I almost forgot... The Visual Studio solution also includes an autowah, which I added as an afterthought, since I already had the necessary bandpass filter implemented. It uses an LFO for modulation. Generally, guitar players are not crazy about autowah, we prefer wah pedals that we can control entirely. I enjoyed much more writing the DSP part than using the autowah, but even a autowah has its place at times.
+I almost forgot... The Visual Studio solution also includes an autowah, which I added as an afterthought, since I already had the necessary bandpass filter implemented. It uses a sine wave for modulation. Generally, guitar players are not crazy about autowah, we prefer wah pedals that we can control entirely. I enjoyed much more writing the DSP part than using the autowah, but even a autowah has its place at times.
