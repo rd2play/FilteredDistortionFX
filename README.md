@@ -1,4 +1,4 @@
-# FilteredDistortionGitHub
+# Filtered Distortion AutoWah
 
 As a guitar player, I use(d) many different overdrive/distortion pedals. One day, thinking about distortion, genius struck!
 
