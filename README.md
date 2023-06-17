@@ -16,7 +16,7 @@ Ok, the proof is in the pudding, how does it sound? Well, let's just say that th
 
 However, I'm very happy with the DSP part. Each of the three adjustable frequency bands implements a bandpass filter. The samples in this bandpass range get substracted from the input, gain is applied to them and then they are added back to the input. This achieves the goal of having an output with a certain frequency range distorted and everything above and below that range remains clean/unaffected.
 
-High Q factor (approaching 10) and high gain lead to unpleasant oscillation or "ringing". This is a phenomenon that also occurs in the analog world. Proceed with caution!
+High Q factor (approaching 10) and high gain lead to unpleasant oscillation or "ringing". This is a phenomenon that also occurs in the analog world under similar circumstances. Proceed with caution!
 
 The gain formulas are from the book <a href="https://www.amazon.com/Designing-Audio-Effect-Plugins-C/dp/1138591939/ref=sr_1_1?crid=33QAQWW40DDF3&keywords=will+pirkle&qid=1686975397&sprefix=will+pirkle%2Caps%2C158&sr=8-1&ufe=app_do%3Aamzn1.fos.006c50ae-5d4c-4777-9bc0-4513d670b6bc">Designing Audio Effect Plugins in C++: For AAX, AU, and VST3 with DSP Theory 2nd Edition</a>, by Will Pirkle. More precisely, the formulas are from his "Addendum_A19_Pirkle_v1.0.pdf", which I included in the repository. This is a fantastic treatise on digitally modeling the complex behavior of tubes in a guitar amplifier.
 
