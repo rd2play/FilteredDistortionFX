@@ -12,9 +12,9 @@ The usable frequency range of the electric guitar is between more or less 100 Hz
 
 Why even try this? For one, because I was genuinely curious how it would sound. Secondly, because DSP makes it easy (compared to analog). Lastly, because I enjoy a lot working on and experimenting with DSP.
 
-Ok, the proof is in the pudding, how does it sound? Well, let's just say that this revolutionary idea won't take over the world. Other than that, it's a matter of taste.
+Ok, the proof is in the pudding, how does it sound? Well, let's just say that this revolutionary idea won't take over the audio world. Other than that, it's a matter of taste.
 
-However, I'm very happy with the DSP part. Each of the three adjustable frequency bands implements a bandpass filter. The samples in this bandpass range get substracted from the input, gain is applied to them and then they are added back to the input. This achieves the goal of having an output with a certain frequency range distorted and everything above and below that range remains clean/unaffected.
+However, I'm very happy with the DSP part. Each of the three adjustable frequency bands implements an IIR bandpass filter. The samples in this bandpass range get substracted from the input, gain is applied to them and then they are added back to the input. This achieves the goal of having an output with a certain frequency range distorted and everything above and below that range remains clean/unaffected.
 
 High Q factor (approaching 10) and high gain lead to unpleasant oscillation or "ringing". This is a phenomenon that also occurs in the analog world under similar circumstances. Proceed with caution!
 
