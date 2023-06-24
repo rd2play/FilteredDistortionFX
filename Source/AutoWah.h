@@ -8,14 +8,14 @@ class AutoWah {
  public:
   void process(float* samples, int samplesCount);
   void prepareToPlay(double sampleRate, int samplesPerBlock);
-  void setBandpassParameters();
+  void updateLFOBandpassParameters();
   void setLFORate(float lforate) { _lfo.setFrequency(lforate); }
-  void setFrequency(float freq) { digitalCutoffFrequency = freq; }
+  void setFrequency(float freq) { cutoffFrequency = freq; }
   
  private:
   CF::LFO _lfo;
   FilteredDistortion::Bandpass bandpass;  
   float _sampleRate{0.f};
-  float digitalCutoffFrequency{0.f};
+  float cutoffFrequency{0.f};
 };
 }  // namespace AutoWah
