@@ -11,6 +11,7 @@ namespace FilteredDistortion {
     void Bandpass::setCutoffFrequency(float digitalCutoffFrequency) {
         _cutoffFrequency = digitalCutoffFrequency;
 
+        //change the Q for autowah - 0.7 sounds good, experiment from there
         const auto Q = 8.7f;
         const auto pi = std::numbers::pi_v<float>;
         const auto omega = 2 * pi * digitalCutoffFrequency;

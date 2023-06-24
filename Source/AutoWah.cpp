@@ -20,9 +20,10 @@ namespace AutoWah {
   
     void AutoWah::updateLFOBandpassParameters() {
         auto lfoValue = _lfo.getNextSample();
-        lfoValue = (lfoValue + 1.f) / 2.f;
-        bandpass.setCutoffFrequency(
-            (cutoffFrequency + (2000.f * lfoValue)) / _sampleRate);
+        // modulate unipolar for experimentation
+        //lfoValue = (lfoValue + 1.f) / 2.f;
+        bandpass.setCutoffFrequency((2000.f + (1950.f * lfoValue)) /
+                                    _sampleRate);
     }
 
 }  // namespace AutoWah
