@@ -192,8 +192,7 @@ void FilteredDistortionAudioProcessor::processBlock(
         fdeffect[channel].process(channelData, buffer.getNumSamples());
         // end block
 
-        // uncomment for autowah
-        // aweffect[channel].setBandpassParameters();
+        // uncomment for autowah        
         // aweffect[channel].process(channelData, buffer.getNumSamples());
         // end block
     }
